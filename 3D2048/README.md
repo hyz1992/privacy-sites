@@ -45,3 +45,10 @@
 - 结构来源：用户提供的 SUD《用户隐私保护指引设置.docx》。
 - [SUD 小游戏隐私合规开发指南](https://developer.sud.tech/openpaas/minigame/introduction/minigame-integration-guide/privacy/user-privacy-protection.html)。
 - [GitHub Pages 发布源设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+
+## TapTap 小游戏专用版本
+
+- 源文件：[`taptap/index.html`](taptap/index.html)，复用上级 `style.css`。
+- GitHub Pages：<https://hyz1992.github.io/privacy-sites/3D2048/taptap/>。
+- 适用《方糖叠叠乐》Tap 小游戏 0.1.2，说明本地存档、设备适配和平台服务；不复用 Android APK 的广告 SDK 条款。
+- 修改源码并发布后，核对上述公开地址，再将其填入 TapTap 后台隐私政策链接。当前目录根部的中英俄页面仍用于原 SUD 版本。

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="《无间跳跃》SUD 小游戏版的隐私保护指引。">
+  <title>《无间跳跃》隐私保护指引</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="alternate" hreflang="zh-CN" href="./index.html">
+  <link rel="alternate" hreflang="en" href="./en.html">
+  <link rel="alternate" hreflang="ru" href="./ru.html">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="brand"><span lang="zh-CN">无间跳跃</span> · SUD OpenPaaS</p>
+      <nav aria-label="语言选择">
+        <a href="./index.html" lang="zh-CN" hreflang="zh-CN" aria-current="page">中文</a>
+        <a href="./en.html" lang="en" hreflang="en">English</a>
+        <a href="./ru.html" lang="ru" hreflang="ru">Русский</a>
+      </nav>
+      <h1>《无间跳跃》隐私保护指引</h1>
+      <p>本指引由《无间跳跃》的开发者 huang yu zhao 制定，说明游戏在 SUD OpenPaaS 及其宿主应用内运行时如何处理你的个人信息。</p>
+    </header>
+
+    <section aria-labelledby="information">
+      <h2 id="information">开发者处理的信息</h2>
+      <p>游戏在设备本地读取和保存你的最高分，以及音乐、音效和震动开关，用于显示个人纪录并在下次游玩时恢复偏好。游戏业务代码不将这些记录上传至开发者服务器，也不要求你注册独立游戏账号或提供昵称、头像、手机号码和身份证号码。</p>
+      <p>在宿主支持震动且你在游戏设置中开启震动时，游戏会调用宿主的短震动能力，用于下砸反馈。你可以在游戏设置中关闭震动。</p>
+      <p>如果你主动通过邮件联系开发者，开发者会使用你的邮箱地址和来信内容来回复、核实和处理你的请求。请只提供处理请求所需的信息。</p>
+    </section>
+
+    <section aria-labelledby="third-parties">
+      <h2 id="third-parties">第三方平台、插件和 SDK</h2>
+      <p>SUD OpenPaaS 及宿主应用提供游戏运行环境和平台服务。忽然科技（上海）有限公司发布的 <a href="https://www.sud.tech/cn/sdkprivacy">SUD-GI SDK 隐私协议</a>说明了该 SDK 如何处理设备品牌、型号等信息，用于兼容性适配和故障排查。具体以所用宿主应用的隐私政策和 <a href="https://www.sud.tech/cn/privacy">SUD 隐私政策</a>为准。</p>
+      <p>如果当前版本和宿主启用了对应广告位，游戏会通过 SUD 广告接口加载或展示激励视频、插屏或横幅广告。游戏将广告位编号传给接口，接收加载、关闭或错误等状态。你主动选择观看激励视频时，游戏根据平台返回的完播结果判断是否提供本局复活。广告服务涉及的设备信息、广告交互数据及其处理规则，请查阅实际宿主应用和相应广告服务提供方的隐私说明。</p>
+    </section>
+
+    <section aria-labelledby="storage">
+      <h2 id="storage">开发者对信息的存储</h2>
+      <p>最高分和偏好设置保存在当前宿主的本地游戏存储中。清除该小游戏的本地数据会移除这些记录，且无法通过本游戏的云端存档恢复。</p>
+      <p>除法律法规另有规定外，开发者仅在处理来信及相关请求所需的最短期限内保留联系信息和通信内容。SUD、宿主应用和广告服务提供方的数据保存规则见其各自的隐私说明。</p>
+    </section>
+
+    <section aria-labelledby="use">
+      <h2 id="use">信息的使用规则和你的权利</h2>
+      <p>开发者仅为本指引列明的目的使用上述信息。若处理目的、方式或信息种类发生变化，开发者会告知相关变化，并在适用法律要求时重新征得同意。</p>
+      <p>你可以通过 <a href="mailto:huangyz192@gmail.com">huangyz192@gmail.com</a> 联系开发者，提出查阅、复制、更正、删除个人信息或撤回同意的请求。涉及 SUD、宿主应用或广告服务提供方处理的信息和权限，可通过其提供的设置或联系方式管理。</p>
+    </section>
+
+    <section aria-labelledby="disclosure">
+      <h2 id="disclosure">信息对外提供与联系开发者</h2>
+      <p>开发者不会出售你的个人信息。如确需向其他处理者提供个人信息或公开披露，开发者会依法履行告知义务，并在适用法律要求时取得你的单独同意。法律法规要求提供信息的，按其规定办理。</p>
+      <p>未成年人请在父母或其他监护人指导下使用游戏。如依法需要处理不满 14 周岁儿童的个人信息，开发者将事先征得其监护人的同意并适用专门的处理规则。</p>
+      <p>如对本指引有疑问、投诉或建议，或需要反馈未成年人个人信息保护问题，请发送邮件至 <a href="mailto:huangyz192@gmail.com">huangyz192@gmail.com</a>。</p>
+    </section>
+
+    <footer class="dates">
+      <p>更新日期 <time datetime="2026-11-09">2026-11-09</time></p>
+      <p>本指引自首次公开发布之日起生效。</p>
+    </footer>
+  </main>
+</body>
+</html>
